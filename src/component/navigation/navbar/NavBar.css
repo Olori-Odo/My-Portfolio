@@ -1,0 +1,9 @@
+#main-nav {
+  display: flex;
+  background-color: bisque;
+}
+
+#logo {
+  display: flex;
+  color: brown;
+}

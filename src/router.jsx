@@ -4,6 +4,7 @@ import MainLayout from "./layout/MainLayout";
 import About from "./pages/About";
 import Project from "./pages/Project";
 import Contact from "./pages/Contact";
+import Skills from "./pages/Skills";
 
 const router = createBrowserRouter([
   {
