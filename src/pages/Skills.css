@@ -8,6 +8,9 @@
   gap: 20px;
 }
 
+#exp-wrapper {
+  width: 100vw;
+}
 #exp {
   display: flex;
   justify-content: center;

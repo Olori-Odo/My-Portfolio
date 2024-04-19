@@ -12,7 +12,7 @@ import "./Skills.css";
 const Skills = () => {
   return (
     <>
-      <div>
+      <div id="exp-wrapper">
         <h1 id="exp">EXPERIENCE WITH:</h1>
         <div id="skills">
           <img src={Html} alt="" />

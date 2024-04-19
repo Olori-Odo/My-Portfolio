@@ -14,4 +14,13 @@
 #about-note {
   display: flex;
   justify-content: center;
+  font-size: 0.8em;
+}
+
+#about-p {
+  display: grid;
+  grid-auto-rows: max-content;
+}
+#span {
+  margin-top: 20px;
 }

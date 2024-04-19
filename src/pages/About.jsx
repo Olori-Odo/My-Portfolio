@@ -9,17 +9,22 @@ const About = () => {
       </div>
 
       <div id="about-note">
-        <p>
-          I am Software Developer looking for exciting opportunities. <br />
-          designs for every category of websites whether it be an online
-          eCommerce store, <br />
-          an event page or even a product landing page.
-          <br />
-          Has Criminology and Technical Background. <br /> Likes to focus on
-          accesibility while developing. <br />
-          Passionate and curious about solving problems, <br />
-          Currently exploring mongoDb and open to learn more.
-        </p>
+        <div id="ab-grid">
+          <p id="about-p">
+            Fatai is a Software Developer looking for exciting opportunities.{" "}
+            <br />
+            Designs for every category of websites whether it be an online
+            eCommerce store, <br />
+            an event page or even a product landing page.
+            <br />
+            <span id="span">
+              Has Criminology and Technical Background. <br /> Likes to focus on
+              accesibility while developing. <br />
+              Passionate and curious about solving problems, <br />
+              Currently exploring mongoDb and open to learn more.
+            </span>
+          </p>
+        </div>
       </div>
     </div>
   );
