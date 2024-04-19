@@ -12,11 +12,6 @@ a:hover {
   color: #535bf2;
 }
 
-h1 {
-  font-size: 3.2em;
-  line-height: 1.1;
-}
-
 button {
   border-radius: 8px;
   border: 1px solid transparent;
@@ -37,14 +32,23 @@ button:focus-visible {
 }
 
 @media (prefers-color-scheme: light) {
-  #display {
-    color: #213547;
-    background-color: #ffffff;
-  }
   a:hover {
     color: #747bff;
   }
   button {
     background-color: #f9f9f9;
+  }
+}
+@media screen and (min-width: 150px) and (max-width: 360px) {
+  #layout {
+    width: 100%;
+  }
+  #display {
+    width: 100%;
+    height: 100vh;
+  }
+  #main-nav {
+    display: flex;
+    justify-content: space-between;
   }
 }

@@ -1,0 +1,35 @@
+#homepage {
+  display: flex;
+  justify-content: space-between;
+  background-color: black;
+  color: white;
+  height: 90vh;
+}
+
+#intro {
+  width: 50%;
+  margin: auto 100px;
+  align-items: center;
+  font-size: 1.2em;
+  line-height: 1.1;
+}
+#stack {
+  color: grey;
+}
+
+#btn {
+  display: flex;
+  margin-top: 30px;
+  gap: 10px;
+}
+
+#image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-left: 0;
+  width: 50%;
+  height: 310px;
+  border-radius: 0 0 90px 90px;
+  background-color: aqua;
+}
