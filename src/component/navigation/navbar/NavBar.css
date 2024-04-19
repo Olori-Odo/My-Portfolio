@@ -1,9 +1,22 @@
 #main-nav {
   display: flex;
-  background-color: bisque;
+  justify-content: space-between;
+  padding-right: 80px;
+  background-color: rgb(56, 55, 55);
+  color: white;
+  height: 10vh;
 }
 
 #logo {
   display: flex;
-  color: brown;
+  align-items: center;
+  padding-left: 50px;
+  gap: 10px;
+}
+
+#links {
+  display: flex;
+  align-items: center;
+  color: white;
+  gap: 20px;
 }

@@ -1,7 +1,8 @@
 import React from "react";
-import { PiDevToLogo } from "react-icons/pi";
+import { FaHeadSideVirus } from "react-icons/fa";
 import { FaHome } from "react-icons/fa";
 import Links from "../links/Links";
+import "./NavBar.css";
 
 const Link = [
   { to: "/", id: 1, label: "Home", icon: <FaHome /> },
@@ -15,14 +16,17 @@ const NavBar = () => {
   return (
     <div id="main-nav">
       <div id="logo">
-        <PiDevToLogo />
-        <h2>Akin_Dev</h2>
+        <FaHeadSideVirus />
+        <h3>Akin_Dev</h3>
       </div>
 
       <div id="links">
-        {Link.map(({ to, label }) => {
-          <Links to={to} label={label} key={label} />;
-        })}
+        {Link.map(({ to, label, id }) => (
+          <Links to={to} key={id}>
+            {" "}
+            {label}{" "}
+          </Links>
+        ))}
       </div>
     </div>
   );

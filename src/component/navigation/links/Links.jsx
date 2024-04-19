@@ -1,11 +1,14 @@
 import React from "react";
+import { NavLink } from "react-router-dom";
 
-const Links = ({ to, icon, label }) => {
+const Links = ({ to, icon, children }) => {
   return (
-    <Navlink to={to}>
-      <span> {icon} </span>
-      <span> {label} </span>
-    </Navlink>
+    <NavLink to={to}>
+      <div id="nav-links">
+        <span> {icon} </span>
+        <span> {children} </span>
+      </div>
+    </NavLink>
   );
 };
 
