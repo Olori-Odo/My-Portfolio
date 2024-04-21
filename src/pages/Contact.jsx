@@ -1,6 +1,9 @@
 import React from "react";
 import "./Contact.css";
 import { Link } from "react-router-dom";
+import { FaGithub } from "react-icons/fa";
+import { IoLogoLinkedin } from "react-icons/io";
+import { FaXTwitter } from "react-icons/fa6";
 
 const Contact = () => {
   return (
@@ -10,11 +13,25 @@ const Contact = () => {
         <p>
           Say hello at{" "}
           <span>
-            <Link to="akinfatai04@gmail.com" />
-            <link rel="stylesheet" href="" />
-            akinfatai04@gmail.com
+            <Link to="mailto:akinfatai04@gmail.com">akinfatai04@gmail.com</Link>
           </span>{" "}
         </p>
+
+        <div>
+          <Link>
+            <FaGithub />
+          </Link>
+
+          <Link>
+            {" "}
+            <IoLogoLinkedin />{" "}
+          </Link>
+
+          <Link>
+            {" "}
+            <FaXTwitter />{" "}
+          </Link>
+        </div>
       </div>
 
       <div id="form">
