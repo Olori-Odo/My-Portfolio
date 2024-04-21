@@ -1,16 +1,11 @@
 #contact-page {
   display: flex;
   justify-content: center;
-  gap: 50px;
   color: white;
-  width: 80vw;
-  height: 90vh;
+  gap: 100px;
   margin-top: 50px;
 }
 
 input {
-  margin-bottom: 20px;
-}
-textarea {
   margin-bottom: 20px;
 }
