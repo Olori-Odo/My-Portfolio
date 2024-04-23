@@ -21,7 +21,7 @@ const About = () => {
               Has Criminology and Technical Background. <br /> Likes to focus on
               accesibility while developing. <br />
               Passionate and curious about solving problems, <br />
-              Currently exploring mongoDb and open to learn more.
+              Currently exploring mongoDb and open to learning more.
             </span>
           </p>
         </div>
