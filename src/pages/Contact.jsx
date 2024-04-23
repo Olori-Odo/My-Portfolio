@@ -27,7 +27,7 @@ const Contact = () => {
             <IoLogoLinkedin />{" "}
           </Link>
 
-          <Link>
+          <Link to=" https://twitter.com/Akinyemifataio">
             {" "}
             <FaXTwitter />{" "}
           </Link>
