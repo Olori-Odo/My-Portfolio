@@ -15,14 +15,14 @@ const Skills = () => {
       <div id="exp-wrapper">
         <h1 id="exp">EXPERIENCE WITH:</h1>
         <div id="skills">
-          <img src={Html} alt="" />
-          <img src={Css} alt="" />
-          <img src={Javascript} alt="" />
-          <img src={Typescript} alt="" />
-          <img src={react} alt="" />
-          <img src={Nodejs} alt="" />
-          <img src={Git} alt="" />
-          <img src={Mongodb} alt="" />
+          <img className="skills-img" src={Html} alt="" />
+          <img className="skills-img" src={Css} alt="" />
+          <img className="skills-img" src={Javascript} alt="" />
+          <img className="skills-img" src={Typescript} alt="" />
+          <img className="skills-img" src={react} alt="" />
+          <img className="skills-img" src={Nodejs} alt="" />
+          <img className="skills-img" src={Git} alt="" />
+          <img className="skills-img" src={Mongodb} alt="" />
         </div>
       </div>
     </>
