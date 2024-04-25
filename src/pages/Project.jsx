@@ -11,11 +11,13 @@ const Project = () => {
         <h1 id="p-header">Projects..</h1>
 
         <div id="projects">
-          <label htmlFor="Food">FFood Recipe</label>
-          <Link to=" http://dmrecipe.netlify.app">
-            {" "}
-            <img className="image" src={Food} alt="recipe" />{" "}
-          </Link>
+          <div id="link-1">
+            <h6>Food Recipe</h6>
+            <Link to=" http://dmrecipe.netlify.app">
+              {" "}
+              <img className="image" src={Food} alt="recipe" />{" "}
+            </Link>
+          </div>
           <img className="image" src={CRM} alt="ticketing" />
         </div>
       </div>

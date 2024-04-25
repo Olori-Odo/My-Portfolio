@@ -20,3 +20,10 @@
   border-radius: 10px;
   cursor: pointer;
 }
+#link-1 {
+  display: block;
+}
+h6 {
+  margin: 0;
+  padding: 0;
+}
