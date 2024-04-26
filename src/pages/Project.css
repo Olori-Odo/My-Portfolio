@@ -7,8 +7,9 @@
   gap: 10px;
   color: black;
 }
+
 #p-header {
-  color: white;
+  color: black;
   display: flex;
   justify-content: center;
   margin-top: 50px;
@@ -20,6 +21,9 @@
   margin-top: 100px;
   border-radius: 10px;
   cursor: pointer;
+}
+.image:hover {
+  border: 1px solid rgb(40, 40, 139);
 }
 #link-1 {
   display: block;

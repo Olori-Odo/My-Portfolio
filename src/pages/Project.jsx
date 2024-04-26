@@ -8,11 +8,11 @@ const Project = () => {
   return (
     <>
       <div>
-        <h1 id="p-header">Projects..</h1>
+        <h1 id="p-header">PROJECTS:</h1>
 
         <div id="projects">
           <div id="link-1">
-            <label htmlFor="">
+            <div>
               <Link to=" http://dmrecipe.netlify.app">
                 {" "}
                 <img className="image" src={Food} alt="recipe" />{" "}
@@ -20,7 +20,7 @@ const Project = () => {
               <span>
                 <h1>Food Recipe</h1>
               </span>
-            </label>
+            </div>
           </div>
           <img className="image" src={CRM} alt="ticketing" />
         </div>

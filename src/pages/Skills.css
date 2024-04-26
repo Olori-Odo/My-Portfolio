@@ -2,14 +2,14 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: 50px;
   width: 100%;
-  height: 50vh;
+  height: 70vh;
   gap: 20px;
 }
 
 #exp-wrapper {
   width: 100vw;
+  margin-top: 50px;
 }
 #exp {
   display: flex;

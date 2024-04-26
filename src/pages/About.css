@@ -5,7 +5,9 @@
   color: black;
   padding-top: 150px;
   font-size: 1.5em;
-  height: 70vh;
+  height: 90vh;
+  border-bottom: 5px dotted rgb(54, 54, 173);
+  margin: 10px;
 }
 
 /* #about {

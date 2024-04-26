@@ -1,9 +1,10 @@
 #contact-page {
   display: flex;
   justify-content: center;
-  color: white;
+  color: rgb(37, 37, 180);
   gap: 100px;
   margin-top: 50px;
+  height: 90vh;
 }
 
 input {
