@@ -6,7 +6,7 @@ import Css from "../assets/CSS.png";
 import Javascript from "../assets/javascript.png";
 import Nodejs from "../assets/node.png";
 import Git from "../assets/git.png";
-import Mongodb from "../assets/nodemon.png";
+import Mongodb from "../assets/node-mongo.png";
 import "./Skills.css";
 
 const Skills = () => {

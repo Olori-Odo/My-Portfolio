@@ -14,7 +14,10 @@ const Home = () => {
             <p id="stack">A Mern-Stack Software Developer... </p>
 
             <div id="btn">
-              <button>Get in Touch</button>
+              <Link to={"/contact"}>
+                <button>Get in Touch</button>
+              </Link>
+
               <Link to={"https://flowcv.com/resume/7pdu725h3b "}>
                 {" "}
                 <button>Resume</button>{" "}

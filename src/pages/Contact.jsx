@@ -17,7 +17,7 @@ const Contact = () => {
           </span>{" "}
         </p>
 
-        <div>
+        <div id="contact-link">
           <Link>
             <FaGithub />
           </Link>

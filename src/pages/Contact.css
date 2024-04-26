@@ -1,12 +1,15 @@
 #contact-page {
   display: flex;
   justify-content: center;
-  color: rgb(37, 37, 180);
+  background-color: rgb(34, 34, 107);
+  color: white;
   gap: 100px;
-  margin-top: 50px;
+  padding-top: 50px;
   height: 90vh;
 }
-
+/* #contact-link {
+  color: #646cff;
+} */
 input {
   margin-bottom: 20px;
 }
