@@ -2,9 +2,9 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: 100px;
+  margin-top: 50px;
   width: 100%;
-  height: 20vh;
+  height: 50vh;
   gap: 20px;
 }
 
@@ -18,6 +18,6 @@
   color: grey;
 }
 .skills-img {
-  margin-top: 50px;
+  margin-top: 20px;
   width: 100px;
 }

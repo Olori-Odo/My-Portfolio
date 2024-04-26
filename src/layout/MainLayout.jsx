@@ -5,16 +5,20 @@ import "./MainLayout.css";
 import About from "../pages/About";
 import Skills from "../pages/Skills";
 import Home from "../pages/Home";
+import Project from "../pages/Project";
 
 const MainLayout = () => {
   return (
     <div id="layout">
       <NavBar />
       <div id="display">
-        {/* <Home />
-        <About />
-        <Skills /> */}
+        <div id="below"></div>
+
         <Outlet />
+
+        <About />
+        <Project />
+        <Skills />
       </div>
     </div>
   );

@@ -2,15 +2,15 @@
   display: flex;
   justify-content: center;
   gap: 50px;
-  color: white;
+  color: black;
   padding-top: 150px;
-  font-size: 1.6em;
-  height: 90vh;
+  font-size: 1.5em;
+  height: 70vh;
 }
 
-#about {
+/* #about {
   display: flex;
-}
+} */
 #about-note {
   display: flex;
   justify-content: center;
