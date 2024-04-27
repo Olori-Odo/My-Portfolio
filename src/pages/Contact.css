@@ -1,11 +1,12 @@
 #contact-page {
   display: flex;
   justify-content: center;
-  background-color: rgb(34, 34, 107);
+  /* background-color: rgb(34, 34, 107); */
+  background-color: rgb(12, 11, 39);
   color: white;
   gap: 100px;
   padding-top: 50px;
-  height: 90vh;
+  height: 100vh;
 }
 /* #contact-link {
   color: #646cff;

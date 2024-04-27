@@ -15,7 +15,8 @@
   display: flex;
   justify-content: center;
   margin-top: 50px;
-  color: grey;
+  /* color: grey; */
+  color: rgb(12, 11, 39, 0.7);
 }
 .skills-img {
   margin-top: 20px;
