@@ -6,8 +6,8 @@
 #homepage {
   display: flex;
   justify-content: space-between;
-  background-color: rgb(12, 11, 39);
-  color: white;
+  /* background-color: rgb(12, 11, 39); */
+  color: blue;
   height: 90vh;
   width: 95%;
   padding: 100px;
