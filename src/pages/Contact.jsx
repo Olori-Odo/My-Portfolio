@@ -4,6 +4,7 @@ import { Link } from "react-router-dom";
 import { FaGithub } from "react-icons/fa";
 import { IoLogoLinkedin } from "react-icons/io";
 import { FaXTwitter } from "react-icons/fa6";
+import axios from "axios";
 
 const Contact = () => {
   const [projectOffer, setProjectOffer] = useState({
@@ -14,11 +15,11 @@ const Contact = () => {
   });
 
   const handleChange = (e) => {
-    const { name, value } = e.target;
+    // const { name, value } = e.target;
 
     setProjectOffer((prev) => ({
       ...prev,
-      [name]: value,
+      [e.target.name]: e.target.value,
     }));
   };
 
@@ -26,6 +27,10 @@ const Contact = () => {
     e.preventDefault();
 
     console.log(projectOffer);
+    axios
+      .post("http://localhost:3030/contact", { projectOffer })
+      .then((result) => console.log(result))
+      .catch((err) => console.log(err));
   };
 
   return (
@@ -57,21 +62,23 @@ const Contact = () => {
       </div>
 
       <div id="form">
-        <form action="/contact" method="post" onSubmit={handleSubmit}>
+        <form action="/contact" method="POST" onSubmit={handleSubmit}>
           <label htmlFor="name">Name</label> <br />
           <input
             type="text"
             value={projectOffer.name}
             onChange={handleChange}
-            id="name"
+            // id="name"
+            name="name"
           />
           <br />
           <label htmlFor="email">Email</label> <br />
           <input
-            id="email"
+            name="email"
             value={projectOffer.email}
             onChange={handleChange}
             type="email"
+            autoComplete="current-email"
           />
           <br />
           <label htmlFor="subject">Subject</label> <br />
@@ -79,7 +86,8 @@ const Contact = () => {
             type="text"
             value={projectOffer.subject}
             onChange={handleChange}
-            id="subject"
+            name="subject"
+            // autoComplete="current-subject"
           />
           <br />
           <label htmlFor="message">Message</label> <br />
@@ -87,7 +95,7 @@ const Contact = () => {
             name="message"
             value={projectOffer.message}
             onChange={handleChange}
-            id="message"
+            // id="message"
             cols="30"
             rows="10"
           ></textarea>
