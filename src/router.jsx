@@ -9,11 +9,14 @@ import Skills from "./pages/Skills";
 const router = createBrowserRouter([
   {
     path: "/",
-    element: <MainLayout />,
 
     children: [
       {
         index: true,
+        element: <MainLayout />,
+      },
+      {
+        path: "/home",
         element: <Home />,
       },
       {

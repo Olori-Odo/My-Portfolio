@@ -8,11 +8,13 @@ import Nodejs from "../assets/node.png";
 import Git from "../assets/git.png";
 import Mongodb from "../assets/node-mongo.png";
 import "./Skills.css";
+import NavBar from "../component/navigation/navbar/NavBar";
 
 const Skills = () => {
   return (
     <>
       <div id="exp-wrapper">
+        <NavBar />
         <h1 id="exp">EXPERIENCE WITH:</h1>
         <div id="skills">
           <img className="skills-img" src={Html} alt="" />

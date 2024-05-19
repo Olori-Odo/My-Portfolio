@@ -6,20 +6,20 @@ import About from "../pages/About";
 import Skills from "../pages/Skills";
 import Project from "../pages/Project";
 import Contact from "../pages/Contact";
+import Home from "../pages/Home";
 
 const MainLayout = () => {
   return (
     <div id="layout">
       <NavBar />
       <div id="display">
-        <div id="below"></div>
+        <Home />
+        <About />
+        <Skills />
+        <Project />
+        <Contact />
 
         <Outlet />
-
-        <About />
-        <Project />
-        <Skills />
-        <Contact />
       </div>
     </div>
   );

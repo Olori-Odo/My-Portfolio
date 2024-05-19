@@ -3,11 +3,13 @@ import "./Project.css";
 import Food from "../assets/food.jpg";
 import CRM from "../assets/crm.png";
 import { Link } from "react-router-dom";
+import NavBar from "../component/navigation/navbar/NavBar";
 
 const Project = () => {
   return (
     <>
       <div>
+        <NavBar />
         <h1 id="p-header">PROJECTS:</h1>
 
         <div id="projects">

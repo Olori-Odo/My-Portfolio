@@ -6,9 +6,9 @@ import "./NavBar.css";
 
 const Link = [
   { to: "/", id: 1, label: "Home", icon: <FaHome /> },
-  { to: "#about-page", id: 2, label: "About" },
+  { to: "/:about-page", id: 2, label: "About" },
   { to: "/skills", id: 3, label: "Skills" },
-  { to: "project", id: 4, label: "Project" },
+  { to: "/project", id: 4, label: "Project" },
   { to: "/contact", id: 5, label: "Contact" },
 ];
 
