@@ -9,10 +9,11 @@ const Home = () => {
       <div id="home-container">
         <div id="homepage">
           <div id="intro">
-            <p>Hi, I AM</p>
-            <h2>FATAI AKINYEMI</h2>
-            <p id="stack">A Mern-Stack Software Developer... </p>
-
+            <div id="name">
+              <p>Hi, I AM</p>
+              <h2>FATAI AKINYEMI</h2>
+              <p id="stack">A Mern-Stack Software Developer... </p>
+            </div>
             <div id="btn">
               <Link to={"/contact"}>
                 <button>Get in Touch</button>

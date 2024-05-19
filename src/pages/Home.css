@@ -21,6 +21,10 @@
   line-height: 1.1;
   margin: 50px 70px;
 }
+#intro #name {
+  font-size: 1.5em;
+  line-height: 1.6;
+}
 #stack {
   color: rgb(59, 56, 56);
 }
