@@ -15,7 +15,7 @@ const Project = () => {
         <div id="projects">
           <div id="link-1">
             <div>
-              <Link to=" http://dmrecipe.netlify.app">
+              <Link to="https://dmrecipe.netlify.app/">
                 {" "}
                 <img className="image" src={Food} alt="recipe" />{" "}
               </Link>
@@ -24,7 +24,15 @@ const Project = () => {
               </span>
             </div>
           </div>
-          <img className="image" src={CRM} alt="ticketing" />
+
+          <div id="link-2">
+            <Link to="https://diamondcrm-ticket.netlify.app">
+              <img className="image" src={CRM} alt="ticketing" />
+            </Link>
+            <span>
+              <h1>CRM Ticketing System</h1>
+            </span>
+          </div>
         </div>
       </div>
     </>

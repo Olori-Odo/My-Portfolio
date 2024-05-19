@@ -29,6 +29,13 @@
 #link-1 {
   display: block;
 }
+#link-2 .image {
+  background-color: rgb(55, 103, 145);
+  width: 260px;
+  /* height: 210px; */
+  /* border-radius: 5px; */
+  /* margin-top: -20px; */
+}
 h6 {
   margin: 0;
   padding: 0;
