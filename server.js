@@ -21,10 +21,13 @@ app.get("/", (req, res) => {
 });
 
 app.post("/contact", async (req, res) => {
-  const { projectOffer } = req.body;
+  const { name, email, subject, message } = req.body;
 
   ClientModel.create({
-    projectOffer,
+    name,
+    email,
+    subject,
+    message,
   })
     .then((ClientInfo) => res.json(ClientInfo))
     .catch((err) => res.json(err));

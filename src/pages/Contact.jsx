@@ -8,28 +8,26 @@ import axios from "axios";
 import NavBar from "../component/navigation/navbar/NavBar";
 
 const Contact = () => {
-  const [projectOffer, setProjectOffer] = useState({
-    name: "",
-    email: "",
-    subject: "",
-    message: "",
-  });
+  const [name, setName] = useState();
+  const [email, setEmail] = useState();
+  const [subject, setSubject] = useState();
+  const [message, setMessage] = useState();
 
-  const handleChange = (e) => {
-    // const { name, value } = e.target;
+  // const handleChange = (e) => {
+  //   const { name, value } = e.target;
 
-    setProjectOffer((prev) => ({
-      ...prev,
-      [e.target.name]: e.target.value,
-    }));
-  };
+  //   setProjectOffer((prev) => ({
+  //     ...prev,
+  //     [e.target.name]: e.target.value,
+  //   }));
+  // };
 
   const handleSubmit = (e) => {
     e.preventDefault();
 
-    console.log(projectOffer);
+    console.log(e);
     axios
-      .post("http://localhost:3030/contact", { projectOffer })
+      .post("http://localhost:3030/contact", { name, email, subject, message })
       .then((result) => console.log(result))
       .catch((err) => console.log(err));
   };
@@ -71,17 +69,16 @@ const Contact = () => {
             <label htmlFor="name">Name</label> <br />
             <input
               type="text"
-              value={projectOffer.name}
-              onChange={handleChange}
-              // id="name"
+              // value={}
+              onChange={(e) => setName(e.target.value)}
               name="name"
             />
             <br />
             <label htmlFor="email">Email</label> <br />
             <input
               name="email"
-              value={projectOffer.email}
-              onChange={handleChange}
+              // value={projectOffer.email}
+              onChange={(e) => setEmail(e.target.value)}
               type="email"
               autoComplete="current-email"
             />
@@ -89,8 +86,8 @@ const Contact = () => {
             <label htmlFor="subject">Subject</label> <br />
             <input
               type="text"
-              value={projectOffer.subject}
-              onChange={handleChange}
+              // value={projectOffer.subject}
+              onChange={(e) => setSubject(e.target.value)}
               name="subject"
               // autoComplete="current-subject"
             />
@@ -98,9 +95,8 @@ const Contact = () => {
             <label htmlFor="message">Message</label> <br />
             <textarea
               name="message"
-              value={projectOffer.message}
-              onChange={handleChange}
-              // id="message"
+              // value={projectOffer.message}
+              onChange={(e) => setMessage(e.target.value)}
               cols="30"
               rows="10"
             ></textarea>
