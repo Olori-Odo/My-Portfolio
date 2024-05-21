@@ -1,4 +1,3 @@
-// const PORT = 3000;
 const express = require("express");
 const BodyParser = require("body-parser");
 require("dotenv").config();
@@ -7,9 +6,8 @@ const cors = require("cors");
 const ClientModel = require("./src/models/Client");
 
 const app = express();
-// dotenv.config();
 
-const port = 3030 || process.env.PORT;
+const port = process.env.PORT || 3030;
 
 app.use(express.json());
 app.use(morgan("tiny"));
@@ -29,7 +27,7 @@ app.post("/contact", async (req, res) => {
     subject,
     message,
   })
-    .then((ClientInfo) => res.json(ClientInfo))
+    .then((client) => console.log(res.json(client)))
     .catch((err) => res.json(err));
 });
 
