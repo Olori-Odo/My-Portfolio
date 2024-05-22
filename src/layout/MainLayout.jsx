@@ -11,8 +11,9 @@ import Home from "../pages/Home";
 const MainLayout = () => {
   return (
     <div id="layout">
-      <NavBar />
+      {/* <NavBar /> */}
       <div id="display">
+        <NavBar />
         <Home />
         <About />
         <Skills />

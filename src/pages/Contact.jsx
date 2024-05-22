@@ -5,7 +5,7 @@ import { FaGithub } from "react-icons/fa";
 import { IoLogoLinkedin } from "react-icons/io";
 import { FaXTwitter } from "react-icons/fa6";
 import axios from "axios";
-import NavBar from "../component/navigation/navbar/NavBar";
+// import NavBar from "../component/navigation/navbar/NavBar";
 
 const Contact = () => {
   const [name, setName] = useState();
@@ -30,11 +30,13 @@ const Contact = () => {
       .post("http://localhost:3030/contact", { name, email, subject, message })
       .then((result) => console.log(result))
       .catch((err) => console.log(err));
+
+    alert("submitted");
   };
 
   return (
     <div id="c-p">
-      <NavBar />
+      {/* <NavBar /> */}
       <div id="contact-page">
         <div id="contact-info">
           <h1 id="connect">LET'S CONNECT</h1>

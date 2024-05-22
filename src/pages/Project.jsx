@@ -3,13 +3,13 @@ import "./Project.css";
 import Food from "../assets/food.jpg";
 import CRM from "../assets/crm.png";
 import { Link } from "react-router-dom";
-import NavBar from "../component/navigation/navbar/NavBar";
+// import NavBar from "../component/navigation/navbar/NavBar";
 
 const Project = () => {
   return (
     <>
       <div>
-        <NavBar />
+        {/* <NavBar /> */}
         <h1 id="p-header">PROJECTS:</h1>
 
         <div id="projects">
@@ -20,7 +20,7 @@ const Project = () => {
                 <img className="image" src={Food} alt="recipe" />{" "}
               </Link>
               <span>
-                <h1>Food Recipe</h1>
+                <h2>Food Recipe</h2>
               </span>
             </div>
           </div>
@@ -30,7 +30,7 @@ const Project = () => {
               <img className="image" src={CRM} alt="ticketing" />
             </Link>
             <span>
-              <h1>CRM Ticketing System</h1>
+              <h2>CRM Ticketing System</h2>
             </span>
           </div>
         </div>
