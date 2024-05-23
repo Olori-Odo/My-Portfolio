@@ -1,3 +1,6 @@
+#projects-wrap {
+  background-color: aliceblue;
+}
 #projects {
   display: flex;
   justify-content: center;

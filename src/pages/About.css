@@ -3,10 +3,11 @@
   justify-content: center;
   gap: 50px;
   color: black;
-  padding-top: 150px;
+  padding: 150px;
   font-size: 1.5em;
   height: 100vh;
   margin: 10px;
+  background-color: aliceblue;
 }
 
 #about-note {

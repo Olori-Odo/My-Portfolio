@@ -8,7 +8,7 @@ import { Link } from "react-router-dom";
 const Project = () => {
   return (
     <>
-      <div>
+      <div id="projects-wrap">
         {/* <NavBar /> */}
         <h1 id="p-header">PROJECTS:</h1>
 
