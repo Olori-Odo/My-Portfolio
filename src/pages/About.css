@@ -8,6 +8,7 @@
   height: 100vh;
   margin: 10px;
   background-color: aliceblue;
+  width: 100vw;
 }
 
 #about-note {

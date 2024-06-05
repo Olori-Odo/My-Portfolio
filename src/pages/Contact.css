@@ -11,3 +11,8 @@
 input {
   margin-bottom: 20px;
 }
+@media screen and (min-width: 360) and (max-width: 740) {
+  #contact-page {
+    width: 100%;
+  }
+}

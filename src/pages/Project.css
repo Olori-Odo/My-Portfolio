@@ -1,5 +1,6 @@
 #projects-wrap {
   background-color: aliceblue;
+  width: 100vw;
 }
 #projects {
   display: flex;
