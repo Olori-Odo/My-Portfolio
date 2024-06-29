@@ -7,20 +7,23 @@ import Skills from "../pages/Skills";
 import Project from "../pages/Project";
 import Contact from "../pages/Contact";
 import Home from "../pages/Home";
+// const Bootstrap = require("bootstrap");
 
 const MainLayout = () => {
   return (
-    <div id="layout">
+    <div id="layout" className="container">
       {/* <NavBar /> */}
-      <div id="display">
-        <NavBar />
-        <Home />
-        <About />
-        <Skills />
-        <Project />
-        <Contact />
+      <div className="row">
+        <div className="col" id="display">
+          <NavBar />
+          <Home />
+          <About />
+          <Skills />
+          <Project />
+          <Contact />
 
-        <Outlet />
+          <Outlet />
+        </div>
       </div>
     </div>
   );
