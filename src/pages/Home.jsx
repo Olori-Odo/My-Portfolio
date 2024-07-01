@@ -6,7 +6,7 @@ import { Link } from "react-router-dom";
 const Home = () => {
   return (
     <>
-      <div id="home-container">
+      <div className="container-md-fluid" id="home-container">
         <div id="homepage">
           <div id="intro">
             <div id="name">
@@ -16,12 +16,12 @@ const Home = () => {
             </div>
             <div id="btn">
               <Link to={"/contact"}>
-                <button>Get in Touch</button>
+                <button className="btn btn-success">Get in Touch</button>
               </Link>
 
               <Link to={"https://flowcv.com/resume/7pdu725h3b "}>
                 {" "}
-                <button>Resume</button>{" "}
+                <button className="btn btn-info">Resume</button>{" "}
               </Link>
             </div>
           </div>

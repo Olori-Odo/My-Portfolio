@@ -10,9 +10,9 @@ import Home from "../pages/Home";
 
 const MainLayout = () => {
   return (
-    <div id="layout" className="container-fluid">
+    <div id="layout" className="container-fluid ">
       {/* <NavBar /> */}
-      <div className="row">
+      <div className="row justify-content-md-center">
         <div className="col" id="display">
           <NavBar />
           <Home />
