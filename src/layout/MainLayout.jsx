@@ -11,10 +11,12 @@ import Home from "../pages/Home";
 const MainLayout = () => {
   return (
     <div id="layout" className="container-fluid ">
-      {/* <NavBar /> */}
-      <div className="row justify-content-md-center">
+      <NavBar />
+      <div
+        className="row 
+      "
+      >
         <div className="col" id="display">
-          <NavBar />
           <Home />
           <About />
           <Skills />
