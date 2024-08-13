@@ -1,4 +1,4 @@
-#main-nav {
+nav {
   display: flex;
   justify-content: space-between;
   padding-right: 80px;
@@ -14,10 +14,14 @@
   padding-left: 50px;
   gap: 10px;
 }
-
-#links {
+nav #links {
+  display: flex;
+  gap: 15px;
+}
+#links a {
   display: flex;
   align-items: center;
   color: white;
-  gap: 20px;
+  text-decoration: none;
+  /* gap: 20px; */
 }

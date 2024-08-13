@@ -1,22 +1,20 @@
 import React from "react";
-// import { FaHeadSideVirus } from "react-icons/fa";
-
 import { FaHome } from "react-icons/fa";
 import Links from "../links/Links";
 import "./NavBar.css";
-// import Logo from "../"
 
 const Link = [
-  { to: "/", id: 1, label: "Home", icon: <FaHome /> },
-  { to: "/about", id: 2, label: "About" },
-  { to: "/skills", id: 3, label: "Skills" },
-  { to: "/project", id: 4, label: "Project" },
-  { to: "/contact", id: 5, label: "Contact" },
+  { to: "/", id: 1 },
+  { to: "/home", id: 2, label: "Home", icon: <FaHome /> },
+  { to: "/about", id: 3, label: "About" },
+  { to: "/skills", id: 4, label: "Skills" },
+  { to: "/project", id: 5, label: "Project" },
+  { to: "/contact", id: 6, label: "Contact" },
 ];
 
 const NavBar = () => {
   return (
-    <div className=" " id="main-nav">
+    <nav>
       <div className="mx-5" id="logo">
         {/* <FaHeadSideVirus className=" w-50" />
         <h3>Akin_Dev</h3> */}
@@ -31,7 +29,7 @@ const NavBar = () => {
           </Links>
         ))}
       </div>
-    </div>
+    </nav>
   );
 };
 
