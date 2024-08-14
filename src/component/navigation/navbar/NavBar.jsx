@@ -6,8 +6,8 @@ import { FaHeadSideVirus } from "react-icons/fa";
 // import AkinDev from "../assets/AkinDev-logo.png";
 
 const Link = [
-  { to: "/", id: 1 },
-  { to: "/home", id: 2, label: "Home", icon: <FaHome /> },
+  // { to: "/", id: 1 },
+  { to: "/", id: 2, label: "Home", icon: <FaHome /> },
   { to: "/about", id: 3, label: "About" },
   { to: "/skills", id: 4, label: "Skills" },
   { to: "/project", id: 5, label: "Project" },

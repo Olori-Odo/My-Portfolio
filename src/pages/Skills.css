@@ -14,8 +14,7 @@
 #exp {
   display: flex;
   justify-content: center;
-  margin-top: 80px;
-  /* color: grey; */
+  padding-top: 70px;
   color: rgb(12, 11, 39, 0.7);
 }
 .skills-img {

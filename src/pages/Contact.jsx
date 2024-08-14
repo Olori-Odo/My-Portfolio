@@ -99,8 +99,8 @@ const Contact = () => {
               name="message"
               // value={projectOffer.message}
               onChange={(e) => setMessage(e.target.value)}
-              cols="30"
-              rows="10"
+              cols="40"
+              rows="20"
             ></textarea>
             <br />
             <button type="submit">Submit</button>

@@ -1,13 +1,15 @@
 #contact-page {
   display: flex;
   justify-content: center;
-  background-color: rgb(12, 11, 39);
+  background-color: rgb(16, 15, 61);
   color: white;
   gap: 50px;
   padding-top: 50px;
   height: 87.5vh;
 }
-
+#contact-info a {
+  color: #89cff0;
+}
 input {
   margin-bottom: 20px;
 }
