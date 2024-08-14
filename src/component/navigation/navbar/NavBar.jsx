@@ -2,6 +2,8 @@ import React from "react";
 import { FaHome } from "react-icons/fa";
 import Links from "../links/Links";
 import "./NavBar.css";
+import { FaHeadSideVirus } from "react-icons/fa";
+// import AkinDev from "../assets/AkinDev-logo.png";
 
 const Link = [
   { to: "/", id: 1 },
@@ -16,9 +18,9 @@ const NavBar = () => {
   return (
     <nav>
       <div className="mx-5" id="logo">
-        {/* <FaHeadSideVirus className=" w-50" />
-        <h3>Akin_Dev</h3> */}
-        <img src="" alt="akindev logo" />
+        <FaHeadSideVirus className=" fa-head" />
+        <h3>Akin_Dev</h3>
+        {/* <img src={AkinDev} alt="akindev logo" /> */}
       </div>
 
       <div id="links">

@@ -4,7 +4,7 @@ nav {
   padding-right: 80px;
   background-color: rgb(1, 2, 36);
   color: white;
-  height: 10vh;
+  height: 15vh;
   width: 100%;
 }
 
@@ -23,5 +23,4 @@ nav #links {
   align-items: center;
   color: white;
   text-decoration: none;
-  /* gap: 20px; */
 }

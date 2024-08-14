@@ -14,7 +14,6 @@ const Skills = () => {
   return (
     <>
       <div id="exp-wrapper">
-        <NavBar />
         <h1 id="exp">EXPERIENCE WITH:</h1>
         <div id="skills">
           <img className="skills-img" src={Html} alt="" />
