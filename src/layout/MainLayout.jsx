@@ -11,15 +11,15 @@ import Home from "../pages/Home";
 const MainLayout = () => {
   return (
     <div id="layout" className="container-fluid ">
-      {/* <div className="col" id="display">
-          <Home />
-          <About />
-          <Skills />
-          <Project />
-          <Contact />
+      {/* <div className="col" id="display"> */}
+      {/* <Home /> */}
+      {/* <About />
+      <Skills />
+      <Project />
+      <Contact /> */}
 
-          <Outlet />
-        </div> */}
+      <Outlet />
+      {/* </div> */}
     </div>
   );
 };

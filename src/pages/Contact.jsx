@@ -35,77 +35,72 @@ const Contact = () => {
   };
 
   return (
-    <div id="c-p">
-      {/* <NavBar /> */}
-      <div id="contact-page">
-        <div id="contact-info">
-          <h1 id="connect">LET'S CONNECT</h1>
-          <p>
-            Say hello at{" "}
-            <span>
-              <Link to="mailto:akinfatai04@gmail.com">
-                akinfatai04@gmail.com
-              </Link>
-            </span>{" "}
-          </p>
+    <div id="contact-page">
+      <div id="contact-info">
+        <h1 id="connect">LET'S CONNECT</h1>
+        <p>
+          Say hello at{" "}
+          <span>
+            <Link to="mailto:akinfatai04@gmail.com">akinfatai04@gmail.com</Link>
+          </span>{" "}
+        </p>
 
-          <div id="contact-link">
-            <Link>
-              <FaGithub />
-            </Link>
+        <div id="contact-link">
+          <Link>
+            <FaGithub />
+          </Link>
 
-            <Link>
-              {" "}
-              <IoLogoLinkedin />{" "}
-            </Link>
+          <Link>
+            {" "}
+            <IoLogoLinkedin />{" "}
+          </Link>
 
-            <Link to=" https://twitter.com/Akinyemifataio">
-              {" "}
-              <FaXTwitter />{" "}
-            </Link>
-          </div>
+          <Link to=" https://twitter.com/Akinyemifataio">
+            {" "}
+            <FaXTwitter />{" "}
+          </Link>
         </div>
+      </div>
 
-        <div id="form">
-          <form action="/contact" method="POST" onSubmit={handleSubmit}>
-            <label htmlFor="name">Name</label> <br />
-            <input
-              type="text"
-              // value={}
-              onChange={(e) => setName(e.target.value)}
-              name="name"
-            />
-            <br />
-            <label htmlFor="email">Email</label> <br />
-            <input
-              name="email"
-              // value={projectOffer.email}
-              onChange={(e) => setEmail(e.target.value)}
-              type="email"
-              autoComplete="current-email"
-            />
-            <br />
-            <label htmlFor="subject">Subject</label> <br />
-            <input
-              type="text"
-              // value={projectOffer.subject}
-              onChange={(e) => setSubject(e.target.value)}
-              name="subject"
-              // autoComplete="current-subject"
-            />
-            <br />
-            <label htmlFor="message">Message</label> <br />
-            <textarea
-              name="message"
-              // value={projectOffer.message}
-              onChange={(e) => setMessage(e.target.value)}
-              cols="40"
-              rows="20"
-            ></textarea>
-            <br />
-            <button type="submit">Submit</button>
-          </form>
-        </div>
+      <div id="form">
+        <form action="/contact" method="POST" onSubmit={handleSubmit}>
+          <label htmlFor="name">Name</label> <br />
+          <input
+            type="text"
+            // value={}
+            onChange={(e) => setName(e.target.value)}
+            name="name"
+          />
+          <br />
+          <label htmlFor="email">Email</label> <br />
+          <input
+            name="email"
+            // value={projectOffer.email}
+            onChange={(e) => setEmail(e.target.value)}
+            type="email"
+            autoComplete="current-email"
+          />
+          <br />
+          <label htmlFor="subject">Subject</label> <br />
+          <input
+            type="text"
+            // value={projectOffer.subject}
+            onChange={(e) => setSubject(e.target.value)}
+            name="subject"
+            // autoComplete="current-subject"
+          />
+          <br />
+          <label htmlFor="message">Message</label> <br />
+          <textarea
+            name="message"
+            // value={projectOffer.message}
+            onChange={(e) => setMessage(e.target.value)}
+            cols="35"
+            rows="10"
+          ></textarea>
+          <br />
+          <button type="submit">Submit</button>
+        </form>
       </div>
     </div>
   );
